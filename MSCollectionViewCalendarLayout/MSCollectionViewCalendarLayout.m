@@ -143,6 +143,11 @@ NSString *const MSCollectionElementKindDayColumnHeaderBackground = @"MSCollectio
     self.minuteTimer = nil;
 }
 
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    return [self init];
+}
+
 - (id)init
 {
     self = [super init];
